@@ -4,12 +4,18 @@ import './App.css';
 import { Greet } from './components/Greet';
 import Hello from './components/Hello';
 import Message from './components/Message';
+import Counter from './components/Counter';
 
 function App() {
   return (
     <div className="App">
+      <Counter></Counter>
+
+
       
-      {/*<Greet name="Mohamed" lastName="Naimi">
+
+      {
+      /*<Greet name="Mohamed" lastName="Naimi">
         <p>This is children props</p>
       </Greet>
       
@@ -17,9 +23,8 @@ function App() {
       <Greet name="Redtha" lastName="Naimi"></Greet>
       
       <Hello name="Mohamed" lastName="Naimi"></Hello>
-  <Hello name="Malika" lastName="Jali"></Hello>*/}
-
-      <Message></Message>
+  <Hello name="Malika" lastName="Jali"></Hello>
+  <Message></Message>*/}
 
 
     </div>
