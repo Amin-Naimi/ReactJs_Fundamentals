@@ -5,19 +5,21 @@ import { Greet } from './components/Greet';
 import Hello from './components/Hello';
 import Message from './components/Message';
 import Counter from './components/Counter';
-import FunctionClick from './components/FunctionClick';
-import ClassClick from './components/ClassClick';
-import EventBind from './components/EventBind';
-import ParentComponent from './components/ParentComponent';
+import FunctionClick from './components/EventHandling/FunctionClick';
+import ClassClick from './components/EventHandling/ClassClick';
+import EventBind from './components/BindingEventHandlers/EventBind';
+import ParentComponent from './components/Methodes as props/ParentComponent';
 import UserGreeting from './components/ConditionalRendering/UserGreeting';
+import NameList from './components/ListRendering/NameList';
 
 function App() {
   return (
-    
+
     <div className="App">
-      <UserGreeting></UserGreeting>
+      <NameList></NameList>
       {
       /*
+      <UserGreeting></UserGreeting>
       <ParentComponent></ParentComponent>
       <EventBind></EventBind>      
       <ClassClick></ClassClick>
