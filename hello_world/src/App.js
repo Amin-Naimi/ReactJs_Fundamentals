@@ -10,7 +10,8 @@ import ClassClick from './components/EventHandling/ClassClick';
 import EventBind from './components/BindingEventHandlers/EventBind';
 import ParentComponent from './components/Methodes as props/ParentComponent';
 import UserGreeting from './components/ConditionalRendering/UserGreeting';
-import NameList from './components/ListRendering/NameList';
+//import NameList from './components/ListRendering/NameList';
+import NameList from './components/Listes and keys/NameList';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <NameList></NameList>
       {
       /*
+      <NameList></NameList>
       <UserGreeting></UserGreeting>
       <ParentComponent></ParentComponent>
       <EventBind></EventBind>      
